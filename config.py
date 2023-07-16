@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6299940305:AAFZ5DaWWjAQbFy1L_jD5YKRoqJwXp7NzKI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6361922560:AAGbewH8Co8QO4AFD_AsSZbi6Do7yKKrrEM")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26432329"))
@@ -20,10 +20,10 @@ APP_ID = int(os.environ.get("APP_ID", "26432329"))
 API_HASH = os.environ.get("API_HASH", "1ce978786d7c009e700a2253916acf27")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001673644508"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001955248234"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "tiktokviralbarue")
+OWNER = os.environ.get("OWNER", "gudangbokepstreaming")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://htalouyj:w7YoOrBI0cDeRy6zsL-UDlvr1O7-e_YD@tiny.db.elephantsql.com/htalouyj")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001914122165"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001833233127"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1281619082 5020692859").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1359778030").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((1281619082, 1250450587, 1750080384, 182990552))
+ADMINS.extend((1281619082, 1250450587, 1750080384, 182990552, 5587555286))
 
 
 LOG_FILE_NAME = "logs.txt"
