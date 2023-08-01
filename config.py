@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "96fa210019b6e1d523b50074ce4c4d8b")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001938581069"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "gudangbokepstreaming")
+OWNER = os.environ.get("OWNER", "iamhad")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6172213499").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6172213499, 1359778030").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
