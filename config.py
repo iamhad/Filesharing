@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6125374255:AAGxPFtDotyRfemD0OthEpOA9mzeujJ51l8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6029325552:AAGiyh_xpHRTmGzoYPAHVTX8WoFsjkxVPK0")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22260139"))
@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://htalouyj:w7YoOrBI0cDeRy6zsL-UDlvr1O7-e_YD@tiny.db.elephantsql.com/htalouyj")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001727753434"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001920837807"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -50,7 +50,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5220686263").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "6172213499").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
