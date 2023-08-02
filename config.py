@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "22260139"))
 API_HASH = os.environ.get("API_HASH", "5cfc4092df4b5db1b984539fc4871eef")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001859430734"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001938581069"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "iamhad")
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((1281619082, 1250450587, 1750080384, 182990552, 5587555286, 1359778030, 5220686263))
+ADMINS.extend((1281619082, 1250450587, 1750080384, 182990552, 5587555286, 1359778030, 5220686263, 6172213499))
 
 
 LOG_FILE_NAME = "logs.txt"
